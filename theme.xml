@@ -1,0 +1,21 @@
+<!--
+theme name:     Uniflyered! September 2022 suited for 16:9
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="theme">
+   <formatVersion>7</formatVersion>
+
+<feature supported="carousel">
+</feature>
+
+<include subset="Main Menu" name="Bordered x3">./bordered3.xml</include>
+<include subset="Main Menu" name="Bordered x5">./bordered5.xml</include>
+<include subset="Main Menu" name="Neon x3">./neon3.xml</include>
+<include subset="Main Menu" name="Neon x5">./neon5.xml</include>
+<include subset="Main Menu" name="No Border x3">./noborder3.xml</include>
+<include subset="Main Menu" name="No Border x5">./noborder5.xml</include>
+ 
+</theme>
