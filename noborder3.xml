@@ -39,10 +39,10 @@ version         1.0
         <path>./_inc/system4.png</path>
         <zIndex>400</zIndex>	
 			<storyboard>
-		  <animation property="offsetX" from="0.4" to="0" begin="0" duration="4200" mode="linear"/>			  
-		  <animation property="opacity" from="0" to="1" duration="2500" mode="easeIn"/>
-	      <animation property="scale" from="1" to="1.05" begin="4200" duration="300" mode="easeOut"/>
-	      <animation property="scale" from="1.05" to="1" begin="4500" duration="300" mode="easeOut"/>
+		  <animation property="offsetX" from="0.4" to="0" begin="0" duration="5000" mode="linear"/>			  
+		  <animation property="opacity" from="0" to="1" duration="4000" mode="easeIn"/>
+	      <animation property="scale" from="1" to="1.05" begin="5000" duration="300" mode="easeOut"/>
+	      <animation property="scale" from="1.05" to="1" begin="5300" duration="300" mode="easeOut"/>
 		</storyboard>		 
 	   </image>	 	   
 
@@ -92,7 +92,7 @@ version         1.0
          <size>1 1</size>
          <zIndex>5</zIndex>
         <storyboard>
-        <animation property="opacity" from="0" to="1" duration="4500" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" duration="5000" mode="easeIn"/>
         </storyboard> 		 
     </image>		
 
@@ -102,7 +102,7 @@ version         1.0
          <size>1 1</size>
          <zIndex>6</zIndex>
         <storyboard>
-        <animation property="opacity" from="0" to="1" duration="4500" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" duration="5000" mode="easeIn"/>
         </storyboard> 		 
     </image>	
 
@@ -132,7 +132,7 @@ version         1.0
          <size>1 1</size>
          <zIndex>2</zIndex>
         <storyboard>
-        <animation property="opacity" from="0" to="1" duration="4500" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" duration="5000" mode="easeIn"/>
         </storyboard> 		 
     </image>
 
@@ -143,6 +143,21 @@ version         1.0
          <zIndex>1</zIndex>		 
     </image>
    </view>
+   
+--------------------------------------------------------------------------------------------------------
+  <view name="screen">  
+	<text name="clock">
+      <color>d4d4d4</color>
+      <fontSize>0.015</fontSize>
+      <pos>1.95 0.975</pos>
+	  <origin>0 0.5</origin>
+      <size>0.09 0.058</size>
+      <alignment>left</alignment>
+      <fontPath>./_inc/fonts/Shrikhand-Regular.ttf</fontPath>	  
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+  </view>      
+   
    
 --------------------------------------------------------------------------------------------------------------------   
   <view name="gamecarousel">  
