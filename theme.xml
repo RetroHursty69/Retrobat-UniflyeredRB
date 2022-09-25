@@ -17,5 +17,8 @@ version         1.0
 <include subset="Main Menu" name="Neon x5">./neon5.xml</include>
 <include subset="Main Menu" name="No Border x3">./noborder3.xml</include>
 <include subset="Main Menu" name="No Border x5">./noborder5.xml</include>
+
+<include subset="Videos" name="Random Scraped">./video_random.xml</include>
+<include subset="Videos" name="System Snaps _inc/videos">./video_inc.xml</include>
  
 </theme>

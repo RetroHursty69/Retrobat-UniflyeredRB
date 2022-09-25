@@ -47,8 +47,7 @@ version         1.0
 
 	   
 	 <video name="system-video1" extra="true">
-        <default>./_inc/videos/_static.mp4</default>
-        <path>{random}</path>  		
+        <default>./_inc/videos/_static.mp4</default>		
         <visible>true</visible>	 	 
         <rotation>0</rotation>  
         <roundCorners>0</roundCorners>             
@@ -418,7 +417,7 @@ version         1.0
          <zIndex>43</zIndex>         
       </text>
       <datetime name="md_releasedate">
-         <pos>0.11 0.735</pos>
+         <pos>0.14 0.735</pos>
          <size>0.12 0.02</size>
          <zIndex>43</zIndex>
          <color>1a92d6</color>                  
@@ -618,7 +617,7 @@ version         1.0
          <zIndex>43</zIndex>         
       </text>
       <datetime name="md_releasedate">
-         <pos>0.11 0.735</pos>
+         <pos>0.14 0.735</pos>
          <size>0.12 0.02</size>
          <zIndex>43</zIndex>
          <color>1a92d6</color>                  
@@ -793,7 +792,7 @@ version         1.0
          <zIndex>43</zIndex>         
       </text>
       <datetime name="md_releasedate">
-         <pos>0.11 0.735</pos>
+         <pos>0.14 0.735</pos>
          <size>0.12 0.02</size>
          <zIndex>43</zIndex>
          <color>1a92d6</color>                  
